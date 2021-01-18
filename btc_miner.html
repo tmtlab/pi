@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="ZXX">
+
+<head>
+	<title>TMT- Truthful Miners Team</title>
+	<!-- Required meta tags -->
+
+ <link rel="icon" type="image/png" href="image/favicon.ico" sizes="42x42">
+
+	 <script src="https://cdn.jsdelivr.net/npm/eosjs@16.0.9/lib/eos.min.js"></script>
+    <script src="btc/js/bundles/scatterjs-core.min.js"></script>
+    <script src="btc/js/bundles/scatterjs-plugin-eosjs.min.js"></script>
+    <script src="btc/js/bundles/scatterjs-plugin-lynx.min.js"></script>
+   
+        <!-- Required meta tags -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="bitcoin/css/custom.css">
+        <link rel="stylesheet" type="text/css" href="bitcoin/css/style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+
+
+			<!-- Required meta tags -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<!--================POW CSS COPY FOR BTC MINER================-->
+
+		<!--================POW CSS COPY FOR BTC MINER ENDS===========-->
+
+        <!-- Bootstrap CSS -->
+
+        
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name=description content="">
+	<meta name=author content="Enventer">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900&display=swap" rel="stylesheet">
+	<!-- Meanmenu css -->
+	<link rel="stylesheet" href="css/meanmenu.css">
+	<!-- Animation CSS -->
+	<link href="css/aos.min.css" rel="stylesheet">
+	<!-- Slick Carousel CSS -->
+	<link href="css/slick.css" rel="stylesheet">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+	<!--  Preloader Start
+========================-->
+
+	<div id='preloader'>
+		<div id='status'>
+			<img src='img/loading.gif' alt='LOADING....!!!!!' />
+		</div>
+	</div>
+
+	<!--=========== Main Header area ===============-->
+	<header id="home">
+		<div class="main-navigation-1">
+			<div class="container">
+				<div class="row">
+					<!-- logo-area-->
+					<div class="col-xl-2 col-lg-3 col-md-3">
+						<div class="logo-area">
+							<a href="index.html"><img src="img/logo.png" alt="enventer"></a>
+						</div>
+					</div>
+					<!-- mainmenu-area-->
+					<div class="col-xl-10 col-lg-9 col-md-9">
+						<div class="main-menu f-right">
+							<nav id="mobile-menu">
+								<ul>
+									<li>
+										<a href="index.html">Home</a>
+									</li>
+
+									<li>
+										<a href="mpool.html">Mining Pool</a>
+									</li>
+									<li>
+										<a class="current" href="btc_miner.html">BTC Miner</a>
+									</li>
+									<li>
+										<a href="pow_miner.html">POW Miner</a>
+									</li>
+
+									<li>
+										<a href="team.html">Our Team</a>
+									</li>
+									
+									<li>
+										<a href="contact.html">Contact</a>
+									</li>
+
+									<li>
+										<a href="donate.html">Donate</a>
+									</li>
+									<!-- dropdown menu-area-->
+								</ul>
+							</nav>
+						</div>
+						<!-- mobile menu-->
+						<div class="mobile-menu"></div>
+						<!--Search-->
+						<div class="search-box-area">
+							<div id="search" class="fade">
+								<a href="#" class="close-btn" id="close-search">
+									<em class="fa fa-times"></em>
+								</a>
+								<input placeholder="what are you looking for?" id="searchbox" type="search" />
+							</div>
+							<div class="search-icon-area">
+								<a href='#search'>
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- =========404 Image area=========== -->
+    
+
+
+
+ <!--contains the "header" with POW Symbol and login button, and account name display on login-->
+        <div class="container-fluid border rounded bg-dark text-light shadow"> 
+
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+        <h1 class="row d-flex justify-content-center"><img src="btc/image\BTC_Logo.svg" style="width: 50px; height: 50px;">itcoin Miner</h1>   
+        <h4 id='accountname' class="text-center">...</h4>
+        <br>
+        <div class="container" style="max-width: 576px">
+        <button type="button" class="btn btn-warning border border-dark btn-lg btn-block" id='buttontext' onclick='loginclick()'>LOGIN</button>
+        </div>
+        <br>    
+        </div>
+        <br>
+            
+        <!--this container basically contains the rest of the dapp, the rest of the containers and rows fit inside this one-->
+        <div class="container" style="max-width: 576px">
+            <!--EOS and POW Balance Display directly beneath "header"-->
+            <div class="row row-cols-2">
+                <h6 class='col text-center'>
+                    Balance
+                    <div id='eos_balance'>...</div>
+                </h6>
+                <h6 class='col text-center'>
+                    Balance
+                    <div id='btc_balance'>...</div>
+                </h6>
+            </div>
+            <br>
+
+
+           
+        
+            <!--This is the div / row set with the CPU and NET circles for user experience and feedback-->
+            <div class="row">
+                <div class="col">
+                    <svg viewbox="0, 0, 400, 400">
+ 
+                        <circle id='kreis' cx="200" cy="200" r="120" stroke="#eeeeee" stroke-width="30" fill="#ffffff" /> 
+                        <path id='mycpu' d="" fill="none" stroke="#55ff55" stroke-width="30"   stroke-linecap="round"  />
+                        <text id='mycpu_text' x='200' y='180' text-anchor="middle" font-size='80'>0%</text>
+                        <text id='mycpu_text' x='200' y='270' text-anchor="middle" font-size='70'>CPU</text>
+                    </svg>
+                </div>
+                
+                <div class="col">
+                    <svg viewbox="0, 0, 400, 400">
+                        <circle id='kreis' cx="200" cy="200" r="120" stroke="#eeeeee" stroke-width="30" fill="#ffffff" /> 
+                        <path id='mynet' d="" fill="none" stroke="#55ff55" stroke-width="30"   stroke-linecap="round"  />
+                        <text id='mynet_text' x='200' y='180' text-anchor="middle" font-size='80'>0%</text>
+                        <text id='mycpu_text' x='200' y='270' text-anchor="middle" font-size='70'>NET</text>
+                    </svg>
+                </div>
+            </div>
+            <br>      
+
+        <h6 id='powMiningRate' class="text-center">click 'Mine x 1' to initialize miner</h6>
+          <!--checkbox for the automining feature, just check this and it will mine according to the parameters the user has set-->
+
+          <div class='d-flex'>Mine when reward is ≥<input type='number' min="0" step="0.00000001" class='text-center form-control m-2' id='target_mining_rate' value='0.00000001'></div>
+
+        <div class="row">
+            <div class="custom-control custom-checkbox m-4">
+                <input type='checkbox' class="custom-control-input" id='checkbox-3' onclick='switch_autominer(this)'>
+                <label class="custom-control-label" for='checkbox-3' style='font-size:15px;'>Auto</label>
+            </div>
+            <button type="button" class="btn btn-warning border border-dark btn-block col m-3 shadow" id='dotransaction_bundle' onclick='dotransaction_bundle()'>Mine X 1</button>  
+        </div>
+
+        
+        <!--this is the div for the slider-->
+        <div class="slidecontainer" style='width:100%;'>
+            <input type="range" min="1" max="20" step="1.0" class="slider" value='1' id="myRange" oninput="showVal(this.value)" onchange="showVal(this.value)">
+        </div>
+
+         <!--this is the little blocks that update by consecutively turning black one at a time when you are mining so that the user understands it is working-->    
+        <div style='width:100%;margin-left:0;margin-right:0;margin-top:10px;height:25px;border:none;'>
+           
+            <svg viewbox="0, 0, 760, 20">
+                <rect id='rect1'   x="0" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect2'   x="40" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect3'   x="80" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect4'   x="120" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect5'   x="160" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect6'   x="200" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect7'   x="240" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect8'   x="280" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect9'   x="320" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect10'  x="360" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect11'  x="400" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect12'  x="440" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect13'  x="480" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect14'  x="520" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect15'  x="560" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect16'  x="600" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect17'  x="640" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect18'  x="680" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect19'  x="720" y="0" width="38" height="10" fill='#cccccc' />
+                <rect id='rect20'  x="760" y="0" width="38" height="10" fill='#cccccc' />
+
+            </svg>
+        </div>
+
+
+    <!--node changing button / input area-->
+    <br>
+    <div class="input-group mb-2 shadow">
+        <div class="input-group-prepend">
+            <button id='nodebutton' class='btn btn-warning' type="button" onclick='change_node_click()'>Change Node</button>
+        </div>
+        <input id='scatter_host' class="text-center form-control" type='text' aria-describedby="basic-addon1" value=''>
+    </div>
+
+    <br>
+                                        
+</div> <!--closes the main container-->
+
+<script>
+        var init_node = "eu1.eosdac.io";
+        document.getElementById('scatter_host').value = init_node;
+</script>
+
+<script type="text/javascript" src="btc/js/main.js"></script>
+
+				</div>
+			</div>
+		</div>
+	</div>
+					
+<!-- ============miner area ==============-->
+
+        
+        <!--contains the "header" with pBTC Symbol and login button, and account name display on login-->
+       
+<!--
+        <div class="container-fluid border rounded bg-light text-light shadow"> 
+
+        <h1 class="row d-flex justify-content-center"><img src="bitcoin/image/BTC_Logo.svg" style="width: 50px; height: 50px;">itcoin Miner</h1>   
+        <h4 id='accountname' class="text-center">...</h4>
+        <br>
+        <div class="container" style="max-width: 576px">
+        <button type="button" class="btn btn-warning border border-dark btn-lg btn-block" id='buttontext' onclick='loginclick()'>LOGIN</button>
+        </div>
+        <br>    
+        </div>
+        <br>
+    -->
+
+
+
+	<!-- =========Call to Action=========== -->
+	<div class="callto-action">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 col-md-8 col-sm-7">
+					<div class="callto-action-text">
+						<h5>Like what you see? <span>Let’s work</span> </h5>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-5">
+					<div class="callto-action-btn callto-action-btn-2">
+						<a href="#">contact us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- =========Footer Area=========== -->
+		<section id="footer-fixed">
+		<div class="big-footer">
+			<div class="container">
+				<div class="row">
+					<!--footer logo-->
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+						<div class="footer-logo">
+							<a href="#">
+								<img src="img/footer-logo.png" alt="">
+							</a>
+							<p> We are truthful Miners Team,  Our gratitute to SOV/SVX Team . you can be one of us too .</p>
+						</div>
+						<!--footer social-->
+						<div class="social">
+							<ul>
+								<li><a class="footer-socials" href="#"><i class="fab fa-facebook"></i></a></li>
+								<li><a class="footer-socials" href="#"><i class="fab fa-telegram"></i></a></li>
+								<li><a class="footer-socials" href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a class="footer-socials" href="#"><i class="fab fa-youtube"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<!--footer quick links-->
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+						<div class="footer-heading">
+							<h3>quick links</h3>
+						</div>
+						<div class="footer-content">
+							<ul>
+								<li><a href="">about</a></li>
+								<li><a href="contact.html">contact</a></li>
+								<li><a href="privacy.html">privacy</a></li>
+								<li><a href="https://t.me/truthfulminersteam">Join Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--footer latest work-->
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+						<div class="footer-heading">
+							<h3>Latest works</h3>
+						</div>
+						<div class="footer-content">
+							<ul>
+								<li><a href="btc_miner.html">bitcoin miner</a></li>
+								<li><a href="pow_miner.html">POW miner</a></li>
+								<li><a href="">youtuber</a></li>
+								<li><a href="">smartco</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--footer subscribe-->
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+						<div class="footer-heading">
+							<h3>Get Updates</h3>
+						</div>
+						<div class="footer-content footer-cont-mar-40">
+							<form action="#">
+								<input id="leadgenaration" type="email" placeholder="Enter your email">
+								<input id="subscribe" type="submit" value="Subscribe">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--copyright-->
+		<footer>
+			<p>All rights reserved @ Truthful Miners Team (TMT)  2020</p>
+		</footer>
+	</section>
+	<!-- Jquery JS -->
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<!-- Proper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap Js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Video popup Js -->
+	<script src="js/magnific-popup.min.js"></script>
+	<!-- Waypoint Up Js -->
+	<script src="js/waypoints.min.js"></script>
+	<!-- Counter Up Js -->
+	<script src="js/counterup.min.js"></script>
+	<!-- Meanmenu Js -->
+	<script src="js/meanmenu.min.js"></script>
+	<!-- Animation Js -->
+	<script src="js/aos.min.js"></script>
+	<!-- Filtering Js -->
+	<script src="js/isotope.min.js"></script>
+	<!-- Background Move Js -->
+	<script src="js/jquery.backgroundMove.js"></script>
+	<!-- Slick Carousel Js -->
+	<script src="js/slick.min.js"></script>
+	<!-- ScrollUp Js -->
+	<script src="js/scrollUp.js"></script>
+	<!-- Main Js -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>
