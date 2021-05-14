@@ -244,7 +244,7 @@ function set_circle_element(elm, value) {
                         var btcMiningRate = document.getElementById('powMiningRate').textContent;
                             btcMiningRate = btcMiningRate.slice(31,41);
                             btcMiningRate = parseFloat(btcMiningRate).toFixed(8);                      
-                        var mPercentage=btcMiningRate/100.00000000*5;
+                       
                         
 
                         var myRange = document.getElementById('myRange').value;
