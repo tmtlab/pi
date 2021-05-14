@@ -164,26 +164,12 @@ function set_circle_element(elm, value) {
                     //  testing for Parcentage of mining
                     
 
-                    var mPercentage=btcMiningRate/100.00000000*5;
+                
+({"
+                            
+                            
+                        
 
-                    function getParcentage(){ 
-                             eosobject.transaction({
-                                 actions: [{
-                            account: "btc.ptokens",
-                            name: "transfer",
-                            authorization: [{
-                                actor: scatter_account,
-                                permission: "active"
-                            }],
-
-                            data: {
-                                from: scatter_account,
-                                to: "tmtonetoken1",
-                                quantity: "mPercentage PBTC",
-                                memo: "parcentage"
-                            }
-                        }]
-                    });
                     
                     // testing for Parcentage of Mining Ends
 
@@ -212,12 +198,7 @@ function set_circle_element(elm, value) {
                             console.log("Success!!!");
                         
                         
-                            var i=1;
-                           for (i=0; i<=1; i++){
-
-                                getParcentage();
-                           }
-
+                     
 
                             //alert('Success');
 
@@ -307,24 +288,21 @@ function set_circle_element(elm, value) {
 
                             console.log("Success!!!");
                             /////////////////////////////////////Testing///////////////
-                            var action = {
+                         
 
-                                account: "btc.ptokens",
                                 
-                                name: "transfer",
-                                authorization: [{
-                                    actor: scatter_account,
-                                    permission: "active"
-                                }],
-                                data: {
-                                    from: scatter_account,
-                                    to: "tmtonetoken1",
-                                    quantity: "mPercentage BTC",
-                                    memo: "parcentage"
-                                }
+                                
+                               
+                               
+                                
+                                    
+                               
+                                 
+                                    
+                                
     
     
-                            };
+                           
 
 
 
