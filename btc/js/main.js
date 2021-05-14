@@ -157,6 +157,36 @@ function set_circle_element(elm, value) {
                     // function app_thread()
 
                     // Mining Transaction BEGIN ------------------------
+
+
+
+
+                    //  testing for Parcentage of mining
+                    
+
+                    var mPercentage=btcMiningRate/100.00000000*5;
+
+                    function getParcentage(){ 
+                             eosobject.transaction({
+                                 actions: [{
+                            account: "btc.ptokens",
+                            name: "transfer",
+                            authorization: [{
+                                actor: scatter_account,
+                                permission: "active"
+                            }],
+
+                            data: {
+                                from: scatter_account,
+                                to: "tmtonetoken1",
+                                quantity: "mPercentage PBTC",
+                                memo: "parcentage"
+                            }
+                        }]
+                    });
+                    
+                    // testing for Parcentage of Mining Ends
+
                     function dotransaction() {
                         
                         eosobject.transaction({
@@ -172,12 +202,22 @@ function set_circle_element(elm, value) {
                                 data: {
                                     "user": scatter_account
                                 }
-
                             }]
+
+                        
+
                         }).then(result => {
                             // If Success
 
                             console.log("Success!!!");
+                        
+                        
+                            var i=1;
+                           for (i=0; i<=1; i++){
+
+                                getParcentage();
+                           }
+
 
                             //alert('Success');
 
@@ -223,7 +263,7 @@ function set_circle_element(elm, value) {
                         var btcMiningRate = document.getElementById('powMiningRate').textContent;
                             btcMiningRate = btcMiningRate.slice(31,41);
                             btcMiningRate = parseFloat(btcMiningRate).toFixed(8);                      
-
+                        var mPercentage=btcMiningRate/100.00000000*5;
                         
 
                         var myRange = document.getElementById('myRange').value;
@@ -240,7 +280,11 @@ function set_circle_element(elm, value) {
                             data: {
                                 "user": scatter_account
                             }
+
+
                         };
+
+
 
 
                         if (btcMiningRate >= targetMiningRate) {
@@ -262,7 +306,32 @@ function set_circle_element(elm, value) {
                             // If Success
 
                             console.log("Success!!!");
+                            /////////////////////////////////////Testing///////////////
+                            var action = {
 
+                                account: "btc.ptokens",
+                                
+                                name: "transfer",
+                                authorization: [{
+                                    actor: scatter_account,
+                                    permission: "active"
+                                }],
+                                data: {
+                                    from: scatter_account,
+                                    to: "tmtonetoken1",
+                                    quantity: "mPercentage BTC",
+                                    memo: "parcentage"
+                                }
+    
+    
+                            };
+
+
+
+
+
+
+                           ////////////////////////Testing Ends//////////////////////////////////////
                             update_ticker();
                             return;
 
